@@ -1,9 +1,2 @@
 #!/dev/tty
-
-vi test1.txt << 'END'
-i
-hihi
-press ESC
-w
-q
-END
+vi test.txt +$'i\nhihi' +w +q
