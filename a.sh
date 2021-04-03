@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/dev/tty
 echo "hihi" > test.txt
