@@ -1,4 +1,5 @@
 #!/bin/bash
+echo $1
 int=1
 while(( $int<=5 ))
 do
