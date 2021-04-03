@@ -1,5 +1,5 @@
 #!/bin/bash
-echo $1
+echo "import $1"
 int=1
 while(( $int<=5 ))
 do
