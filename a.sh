@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "start!"
-vi test.txt +$'i\nstart' +w +q < /dev/tty
+vi test.txt +$'i\nhstart' +w +q < /dev/tty
 
 
 
