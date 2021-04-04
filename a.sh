@@ -1,6 +1,6 @@
 #!/bin/bash
+echo "start!"
+vi test.txt +$'i start1' +w +q < /dev/tty
 
-vi test.txt +$'i\nhihi' +w +q < /dev/tty
 
-echo "finished!" < /bin/bash
 
